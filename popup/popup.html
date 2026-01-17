@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TabTamer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>TabTamer</h1>
+      <div class="memory-stats">
+        <span class="memory-saved">▼ 0 MB</span>
+        <span class="idle-count">(0 idle tabs)</span>
+      </div>
+    </header>
+    
+    <button id="clear-clutter" class="cta-button">
+      🧹 Clear Clutter Now
+    </button>
+    
+    <div class="tabs-container">
+      <h2>Open Tabs</h2>
+      <div id="tabs-list">
+        </div>
+    </div>
+    
+    <footer>
+      <small>Idle tabs auto-frozen after 5 min</small>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
